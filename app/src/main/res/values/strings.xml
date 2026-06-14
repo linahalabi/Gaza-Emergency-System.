@@ -1,0 +1,39 @@
+<resources>
+    <!-- General App Strings -->
+    <string name="app_name">Gaza Emergency System</string>
+    <string name="btn_save">Save Data</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Welcome.. Please Login</string>
+    <string name="login_subtitle">Gaza Emergency Portal</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+
+    <!-- Patient Registration Screen  -->
+    <string name="registration_title">Register New Injury</string>
+    <string name="label_patient_name">Patient Name (or Unknown)</string>
+    <string name="label_age">Age</string>
+    <string name="label_injury_type">Injury Type</string>
+    <string name="label_triage">Triage Classification</string>
+    <string name="btn_register_submit">Register &amp; Assign Bed</string>
+
+    <!-- Triage Levels  -->
+    <string name="triage_red">Red (Critical)</string>
+    <string name="triage_yellow">Yellow (Stable)</string>
+    <string name="triage_green">Green (Minor)</string>
+    <string name="triage_black">Black (Deceased)</string>
+
+    <!-- Bed Management Screen  -->
+    <string name="bed_mgmt_title">Bed Distribution Map</string>
+    <string name="bed_status_free">Available</string>
+    <string name="bed_status_occupied">Occupied</string>
+    <string name="label_ward_number">Ward No.</string>
+    <string name="patient_name_prefix">Name: %1$s</string>
+    <string name="patient_status_prefix">Status: %1$s</string>
+    <string name="patient_id_format">GZ-2026-%1$04d</string>
+    <string name="available_count_format">متاح: %1$d</string>
+    <string name="occupied_count_format">مشغول: %1$d</string>
+</resources>

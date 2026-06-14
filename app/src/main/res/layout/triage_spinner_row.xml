@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@color/input_bg">
+
+    <!-- The colored circle represents the emergency situation -->
+    <View
+        android:id="@+id/v_color_indicator"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/circle_shape" />
+
+    <!-- Patient case text -->
+    <TextView
+        android:id="@+id/tv_triage_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="Urgent"
+        android:textColor="@color/white_pure"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

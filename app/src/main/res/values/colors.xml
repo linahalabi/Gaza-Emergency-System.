@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  (Medical Theme color) -->
+    <color name="primary_dark">#0A192F</color>
+    <color name="primary_light">#00B4D8</color>
+    <color name="accent_cyan">#90E0EF</color>
+
+    <!-- ألوان حالات الطوارئ Triage Colors ) -->
+    <color name="triage_red">#E63946</color>
+    <color name="triage_yellow">#FFB703</color>
+    <color name="triage_green">#2A9D8F</color>
+    <color name="triage_black">#1D1D1D</color>
+
+    <!--text and boxes colores -->
+    <color name="white_pure">#FFFFFF</color>
+    <color name="text_gray">#8892B0</color>
+    <color name="input_bg">#112240</color>
+
+    <!-- Login Page Colors -->
+    <color name="login_bg_light">#F4F9FF</color>
+    <color name="login_primary_blue">#0086C9</color>
+    <color name="login_text_dark">#4A4A4A</color>
+    <color name="login_field_bg">#FDFDFF</color>
+    <color name="login_field_stroke">#E0E7F1</color>
+
+    <color name="bg_red_light">#FFEBEE</color>
+    <color name="bg_green_light">#E8F5E9</color>
+    <color name="bg_orange_light">#FFF3E0</color>
+    <color name="bg_blue_light">#E3F2FD</color>
+</resources>
