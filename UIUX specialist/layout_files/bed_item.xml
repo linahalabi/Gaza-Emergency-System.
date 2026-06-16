@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_bed"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/white_pure"
+    app:cardCornerRadius="20dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/triage_green">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img_bed_status"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:background="@drawable/circle_shape"
+            android:backgroundTint="#E8F5E9"
+            android:padding="4dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            app:tint="@color/triage_green" />
+
+        <TextView
+            android:id="@+id/tv_bed_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="12dp"
+            android:text="سرير 102"
+            android:textColor="@color/login_text_dark"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_patient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="متاح"
+            android:textColor="@color/triage_green"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/login_field_stroke" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_action_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="التفاصيل"
+                android:textColor="@color/login_primary_blue"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_allocate"
+                style="@style/Widget.Material3.Button.TonalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="تخصيص"
+                android:textColor="@color/white_pure"
+                android:textSize="10sp"
+                app:backgroundTint="@color/login_primary_blue"
+                app:cornerRadius="10dp" />
+
+            <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_bed_substatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="جاهز للاستقبال"
+                android:textColor="@color/triage_green"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
