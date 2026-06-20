@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_triage"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="الفرز" />
+    <item
+        android:id="@+id/nav_beds"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="الأسرة" />
+    <item
+        android:id="@+id/nav_reports"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="التقارير" />
+    <item
+        android:id="@+id/nav_staff"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="الطاقم" />
+</menu>
