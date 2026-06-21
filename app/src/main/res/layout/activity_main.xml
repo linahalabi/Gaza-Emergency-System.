@@ -9,37 +9,58 @@
 
     <ImageView
         android:id="@+id/iv_logo"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:src="@android:drawable/ic_menu_myplaces"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/university_logo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"
-        app:tint="@color/primary_light" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/tv_app_name"
+        android:id="@+id/tv_university"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="GAZA EMERGENCY"
+        android:layout_marginTop="16dp"
+        android:text="الجامعة الإسلامية - غزة"
         android:textColor="@color/white_pure"
-        android:textSize="32sp"
+        android:textSize="18sp"
         android:textStyle="bold"
-        android:letterSpacing="0.1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_logo" />
 
     <TextView
+        android:id="@+id/tv_faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="كلية الهندسة - هندسة الحاسوب"
+        android:textColor="@color/accent_cyan"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_university" />
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="نظام طوارئ غزة"
+        android:textColor="@color/white_pure"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_faculty" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Crisis Response Management System"
+        android:text="مشروع تخرج - FieldClinic MS"
         android:textColor="@color/accent_cyan"
-        android:textSize="14sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_app_name" />
