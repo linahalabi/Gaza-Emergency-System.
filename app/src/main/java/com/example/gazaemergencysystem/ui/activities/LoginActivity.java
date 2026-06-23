@@ -15,7 +15,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         View loginBtn = findViewById(R.id.btn_login);
-        if (loginBtn != null) {
+        if (loginBtn != null) {سؤال
             loginBtn.setOnClickListener(v -> {
                 Toast.makeText(LoginActivity.this, "تم تسجيل الدخول بنجاح!", Toast.LENGTH_SHORT).show();
 
